@@ -12,8 +12,10 @@ h1 {
 }
 
 h2 {
-  font-family: 'Ubuntu',sans-serif;
-  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 h3 {
@@ -75,40 +77,90 @@ p {
 
   /* feature section */
 
-#feature {
-  text-align: center;
+#features {
+  padding: 7% 15%;
 }
 
 .feature-box {
-  margin: 100px 0 100px 0;
+  text-align: center;
+  padding: 5%;
 }
 
-.check-icon {
+.feat-icon {
   color: #ef8172;
-  padding-top: 5%;
+  margin-bottom: 1rem;
 }
 
-.check-icon:hover {
+.feat-icon:hover {
   color: #ff4c68;
   
 }
 
-.bullseye {
-  color: #ef8172;
-  padding-top: 5%;
+/* Testimonials section */
+#testimonials {
+  
+  text-align: center;
+  background-color: #ef8172;
+  color: azure;
 }
 
-.bullseye:hover {
-  color: #ff4c68;
-
+.testimonial-img {
+  border-radius: 50%;
+  width: 15%;
+  margin: 20px;
 }
 
-.heart {
-  color: #ef8172;
-  padding-top: 5%;
+.testimonial-text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.5;
 }
 
-.heart:hover {
-  color: #ff4c68;
+.carousel-item {
+  padding: 7% 15%;
+}
 
+/* Press Section */
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  color: azure;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section*/
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding:3% 2%
+}
+
+
+.card-title {
+  margin: 5% 10%;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.price {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.sign-up {
+  
 }
