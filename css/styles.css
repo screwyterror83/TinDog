@@ -6,7 +6,7 @@ body {
 h1 {
   font-family: 'Montserrat';
   font-weight: bolder;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   line-height: 1.5;
   
 }
@@ -39,7 +39,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%
+  padding: 3% 15%;
 }
 
 /* Navigation Bar */
@@ -73,6 +73,7 @@ p {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  z-index: -1;
   }
 
   /* feature section */
@@ -143,9 +144,7 @@ p {
   text-align: center;
 }
 
-.pricing-column {
-  padding:3% 2%
-}
+
 
 
 .card-title {
@@ -161,6 +160,29 @@ p {
   font-size: 1.5rem;
 }
 
-.sign-up {
-  
+
+/* The rest and footer */
+
+#cta {
+  background-color: #ff4c68;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#footer {
+  background-color: #ff4c68;
+  padding: 30px;
+  font-weight: lighter;
+}
+
+.ending-statement {
+  font-family: 'Montserrat';
+  color: azure;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.page-end-download {
+  margin: 40px;
 }
