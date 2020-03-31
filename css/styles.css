@@ -1,46 +1,43 @@
 body {
   font-family: 'Montserrat';
-}
-
-
-h1 {
-  font-family: 'Montserrat';
-  font-weight: bolder;
-  font-size: 3.2rem;
-  line-height: 1.5;
-  
-}
-
-h2 {
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 1.5rem;
   text-align: center;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+
+  font-weight: 600;
+}
 
 p {
-  font-family: "Montserrat";
   color: #8f8f8f;
-  text-align: center;
-}
-
-#title {
-  background-color: #ff4c68;
-  font-family: 'Ubuntu', sans-serif;
-  color: azure;
-  position: relative;
 }
 
 .container-fluid {
+  padding: 7% 15%;
+}
+
+
+#title {
+  background-color: #ff4c68;
+  color: azure;
+  position: relative;
+  text-align: left;
+}
+
+#title .container-fluid {
   padding: 3% 15% 7%;
+}
+
+.title-heading {
+  font-weight: bolder;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
 /* Navigation Bar */
@@ -61,7 +58,6 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat";
   font-weight: lighter;
 }
 
@@ -82,14 +78,16 @@ p {
   /* feature section */
 
 #features {
-  padding: 7% 15%;
   background-color: white;
   position: relative;
   
 }
 
+.feature-title {
+    font-size: 1.5rem;
+}
+
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -106,7 +104,6 @@ p {
 /* Testimonials section */
 #testimonials {
   
-  text-align: center;
   background-color: #ef8172;
   color: azure;
 }
@@ -118,23 +115,16 @@ p {
 }
 
 .testimonial-text {
-    font-family: 'Montserrat';
     font-weight: 600;
     font-size: 2.5rem;
     line-height: 1.5;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Press Section */
 
 #press {
-  text-align: center;
   background-color: #ef8172;
   color: azure;
-  padding-bottom: 3%;
 }
 
 .press-logo {
@@ -147,7 +137,6 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 
@@ -155,34 +144,28 @@ p {
 
 .card-title {
   margin: 5% 10%;
-  font-family: "Montserrat";
   font-weight: bold;
   font-size: 1.5rem;
 }
 
 .price {
-  font-family: "Montserrat";
   font-weight: bold;
   font-size: 1.5rem;
 }
 
 
-/* The rest and footer */
+/* The CTA and footer Section*/
 
 #cta {
   background-color: #ff4c68;
-  padding-top: 60px;
-  text-align: center;
 }
 
 #footer {
-  background-color: #ff4c68;
-  padding: 30px;
+  background-color: #fff;
   font-weight: lighter;
 }
 
 .ending-statement {
-  font-family: 'Montserrat';
   color: azure;
   font-weight: 600;
   font-size: 2.5rem;
@@ -191,4 +174,22 @@ p {
 
 .page-end-download {
   margin: 40px;
+}
+
+.contact-icon {
+  margin: 20px 10px;
+}
+
+/* Responsive design for mobile and pad */
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
