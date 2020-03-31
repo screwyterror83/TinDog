@@ -17,10 +17,18 @@ p {
   padding: 7% 15%;
 }
 
+/* sections */
 
-#title {
+.colored-section {
   background-color: #ff4c68;
   color: azure;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#title {
   position: relative;
   text-align: left;
 }
@@ -78,7 +86,7 @@ p {
   /* feature section */
 
 #features {
-  background-color: white;
+  
   position: relative;
   
 }
@@ -105,7 +113,7 @@ p {
 #testimonials {
   
   background-color: #ef8172;
-  color: azure;
+
 }
 
 .testimonial-img {
@@ -124,7 +132,7 @@ p {
 
 #press {
   background-color: #ef8172;
-  color: azure;
+  
 }
 
 .press-logo {
@@ -156,17 +164,15 @@ p {
 
 /* The CTA and footer Section*/
 
-#cta {
-  background-color: #ff4c68;
-}
+
 
 #footer {
-  background-color: #fff;
+  
   font-weight: lighter;
 }
 
 .ending-statement {
-  color: azure;
+  
   font-weight: 600;
   font-size: 2.5rem;
   line-height: 1.5;
